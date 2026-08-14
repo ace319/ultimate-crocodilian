@@ -22,6 +22,23 @@
   text-transform: uppercase;
 }
 
+.deep-time .fossil-name {
+  min-width: 0;
+}
+
+.deep-time .fossil-name h3 {
+  margin: .45rem 0 0;
+  font-size: clamp(1.75rem, 2.8vw, 3.35rem);
+  line-height: .98;
+  overflow-wrap: anywhere;
+}
+
+.deep-time .fossil-name i {
+  display: block;
+  margin-top: .75rem;
+  line-height: 1.35;
+}
+
 .deep-time .scale {
   grid-column: 4;
   justify-self: start;
@@ -45,4 +62,5 @@
   .deep-time figure,
   .deep-time article > p,
   .deep-time .scale { grid-column: 1; }
+  .deep-time .fossil-name h3 { font-size: clamp(2rem, 11vw, 3.5rem); }
 }
