@@ -1,0 +1,10 @@
+.status,.card:hover .status{padding:.45rem .6rem;color:#172027!important;background:#fff4dc;border:0;border-left:6px solid #68747a;font-size:10px;font-weight:800;line-height:1.25}
+.status-cr,.card:hover .status-cr{border-left-color:#8f241d}
+.status-en,.card:hover .status-en{border-left-color:#a84a16}
+.status-vu,.card:hover .status-vu{border-left-color:#9a6b00}
+.status-lc,.card:hover .status-lc{border-left-color:#42613d}
+.status-ne,.card:hover .status-ne{border-left-color:#59656b}
+.profile .status{color:#172027!important;background:#f3e5c9}
+.map-head b{display:inline-block;margin:.2rem 0;color:#fff4dc;font-weight:800}
+.hero .count{right:3vw;bottom:2.6rem;left:auto;z-index:2;padding:1rem 1.2rem;color:#fff9ea;background:#09151dcc;border:0;text-shadow:0 2px 12px #000}
+@media(max-width:800px){.hero .count{right:6vw;bottom:2rem;left:auto}.hero-copy{padding-bottom:9rem}}

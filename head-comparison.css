@@ -1,0 +1,10 @@
+.lineage{grid-template-columns:220px minmax(210px,.7fr) 1fr 1fr}
+.definition:before{right:0;bottom:-.18em;left:0;width:100%;font-size:clamp(4.6rem,15vw,15rem);letter-spacing:-.06em;text-align:center;white-space:nowrap}
+.head-photo{position:relative;height:138px;margin:0;overflow:hidden;background:#251611}
+.head-photo img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.08)}
+.alligator-line .head-photo img{object-position:45% 45%}
+.crocodile-line .head-photo img{object-position:64% 54%}
+.gharial-line .head-photo img{object-position:65% 43%}
+.head-photo figcaption{position:absolute;right:0;bottom:0;left:0;padding:.45rem .55rem;color:#fff7e7;background:#1d110dcc;font:8px DM Mono;text-transform:uppercase;letter-spacing:.04em}
+@media(max-width:900px){.lineage{grid-template-columns:180px 1fr}}
+@media(max-width:600px){.lineage{grid-template-columns:1fr}.head-photo{height:180px}}

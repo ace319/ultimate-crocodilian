@@ -1,0 +1,9 @@
+.map-layout{align-items:start}
+.world-map{display:flex;min-height:0;flex-direction:column}
+.world-map svg{display:block;width:100%;height:auto;aspect-ratio:2/1;flex:none;background:#07131b url("assets/nasa-blue-marble.png") center/cover no-repeat}
+.world-map .map-key{flex:0 0 auto}
+.world-map .land{display:none}
+.world-map .range-mark{fill:none;stroke:var(--acid);stroke-width:2;stroke-dasharray:6 5}
+.world-map .range-center{display:none}
+.map-species button small{float:right;font:700 9px DM Mono}
+@media(max-width:800px){.world-map svg{height:auto;min-height:0;aspect-ratio:2/1}.map-species{max-height:320px}}

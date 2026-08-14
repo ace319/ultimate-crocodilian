@@ -1,0 +1,11 @@
+:root{--acid:#f1bd4b}
+.card{display:grid;min-height:430px;padding:0;grid-template-rows:190px 1fr}
+.card>img{width:100%;height:190px;object-fit:cover;filter:saturate(.75);transition:filter .25s}
+.card:hover>img{filter:saturate(1)}
+.card-copy{display:flex;padding:1.5rem;flex-direction:column}
+.card .family{margin-top:.5rem}
+.card .arrow{margin-top:auto}
+.profile-photo{display:block;width:calc(100% + 8rem);height:280px;margin:-4rem -4rem 2rem;object-fit:cover}
+@media(max-width:800px){.profile-photo{width:calc(100% + 3rem);margin:-4rem -1.5rem 2rem}}
+.status{display:inline-block;width:max-content;margin:.75rem 0 0;padding:.35rem .5rem;border:1px solid currentColor;font:700 9px DM Mono;letter-spacing:.05em;text-transform:uppercase}.status-cr{color:#ff8d72}.status-en{color:#ffbb69}.status-vu{color:#f4dd77}.status-lc{color:#f3eedf}.status-ne{color:#d9d1bc}.profile-status{font-size:10px}.status-note{color:#3f4a43;font-size:.78rem}.card-copy .status+p{margin-top:.8rem}
+.archive .card .family,.archive #results{color:#f3eedf}
