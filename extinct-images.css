@@ -1,8 +1,16 @@
 .deep-time article {
-  grid-template-columns: 150px minmax(210px, .8fr) minmax(250px, .85fr) 1fr;
+  grid-template-columns: 150px minmax(270px, .8fr) minmax(0, 1.35fr);
+  grid-template-areas:
+    "era image name"
+    "era image description"
+    "era image scale";
+  align-items: start;
 }
 
+.deep-time .era { grid-area: era; }
+
 .deep-time figure {
+  grid-area: image;
   margin: 0;
 }
 
@@ -23,6 +31,7 @@
 }
 
 .deep-time .fossil-name {
+  grid-area: name;
   min-width: 0;
 }
 
@@ -30,7 +39,7 @@
   margin: .45rem 0 0;
   font-size: clamp(1.75rem, 2.8vw, 3.35rem);
   line-height: .98;
-  overflow-wrap: anywhere;
+  overflow-wrap: normal;
 }
 
 .deep-time .fossil-name i {
@@ -40,27 +49,37 @@
 }
 
 .deep-time .scale {
-  grid-column: 4;
+  grid-area: scale;
   justify-self: start;
 }
 
+.deep-time article > p {
+  grid-area: description;
+  max-width: 680px;
+  margin: .9rem 0 1.1rem;
+}
+
 @media (max-width: 1100px) {
-  .deep-time article { grid-template-columns: 130px minmax(220px, 1fr) 1fr; }
-  .deep-time article > p { grid-column: 2 / 4; }
-  .deep-time .scale { grid-column: 2 / 4; }
+  .deep-time article {
+    grid-template-columns: 130px minmax(0, 1fr);
+    grid-template-areas:
+      "era image"
+      ". name"
+      ". description"
+      ". scale";
+  }
 }
 
 @media (max-width: 900px) {
-  .deep-time article { grid-template-columns: 130px 1fr; }
-  .deep-time figure,
-  .deep-time article > p,
-  .deep-time .scale { grid-column: 2; }
+  .deep-time article {
+    grid-template-columns: 110px minmax(0, 1fr);
+  }
 }
 
 @media (max-width: 600px) {
-  .deep-time article { grid-template-columns: 1fr; }
-  .deep-time figure,
-  .deep-time article > p,
-  .deep-time .scale { grid-column: 1; }
+  .deep-time article {
+    grid-template-columns: 1fr;
+    grid-template-areas: "era" "image" "name" "description" "scale";
+  }
   .deep-time .fossil-name h3 { font-size: clamp(2rem, 11vw, 3.5rem); }
 }
