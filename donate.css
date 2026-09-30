@@ -1,0 +1,99 @@
+.donate {
+  color: #efe7d6;
+  background: #102630;
+}
+
+.donate .chapter {
+  border-color: #ffffff38;
+}
+
+.donate-intro {
+  display: grid;
+  grid-template-columns: 1.1fr .9fr;
+  gap: 7vw;
+  align-items: end;
+}
+
+.donate h2 {
+  margin-bottom: 1rem;
+}
+
+.donate h2 em {
+  color: #f0b34c;
+}
+
+.donate .lead {
+  color: #d6cdbb;
+}
+
+.donate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 4rem;
+  border-top: 1px solid #ffffff42;
+  border-left: 1px solid #ffffff42;
+}
+
+.donate-grid article {
+  display: flex;
+  min-height: 360px;
+  padding: 2rem;
+  flex-direction: column;
+  border-right: 1px solid #ffffff42;
+  border-bottom: 1px solid #ffffff42;
+}
+
+.donate-grid span {
+  color: #f0b34c;
+  font: 9px/1.4 "DM Mono", monospace;
+  letter-spacing: .12em;
+}
+
+.donate-grid h3 {
+  margin: 1.6rem 0 1rem;
+  font: 600 clamp(1.7rem, 2.4vw, 2.7rem)/1.02 Newsreader, serif;
+}
+
+.donate-grid p {
+  color: #c9c4b8;
+  font-size: .9rem;
+}
+
+.donate-grid a {
+  display: flex;
+  margin-top: auto;
+  padding-top: 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #ffffff38;
+  color: #f5c76f;
+  font: 700 10px/1.4 "DM Mono", monospace;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.donate-grid a:hover {
+  color: #fff;
+}
+
+.donate-grid a b {
+  font-size: 1.2rem;
+}
+
+.donate-note {
+  max-width: 780px;
+  margin: 2rem 0 0;
+  color: #aeb9ba;
+  font: 9px/1.6 "DM Mono", monospace;
+}
+
+@media (max-width: 850px) {
+  .donate-intro,
+  .donate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .donate-grid article {
+    min-height: 290px;
+  }
+}
