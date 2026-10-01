@@ -16,7 +16,7 @@ Photographs are independently sourced from Wikimedia Commons, iNaturalist, and N
 | Dwarf crocodile | Thesupermat | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crocodile_nain_aquarium_porte_dor%C3%A9e_Paris.JPG) |
 | American crocodile | Tomás Castelazo | CC BY-SA 2.5 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crocodylus_acutus_mexico_01.jpg) |
 | Hall’s New Guinea crocodile | Unknown | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crocodylus_novaeguineae_Distribution.png) |
-| Orinoco crocodile | Greg Hume | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:OrinocoCrocodile.jpg) |
+| Orinoco crocodile | Chrislorenz9 | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Orinoco_Crocodile.jpg) |
 | Freshwater crocodile | Unknown | CC BY-SA 1.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Australia_Cairns_18.jpg) |
 | Philippine crocodile | Gregg Yan | CC BY-SA 3.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crocodylus_mindorensis_by_Gregg_Yan_01.jpg) |
 | Morelet’s crocodile | Carlos Valenzuela | CC BY-SA 4.0 | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Crocodylus_moreletii_Balacan2020p2.jpg) |
